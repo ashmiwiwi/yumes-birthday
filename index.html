@@ -1,0 +1,70 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Favorite Person ♡</title>
+  <style>
+    body {
+      background: #fff0f3;
+      color: #713747;
+      font-family: Georgia, serif;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .card {
+      max-width: 500px;
+      margin: auto;
+      padding: 35px 20px;
+      background: #fffaf8;
+      border-radius: 25px;
+      box-shadow: 0 8px 25px #71374720;
+    }
+    h1 { font-size: 2.5rem; }
+    p { line-height: 1.8; }
+    button {
+      background: #d76b88;
+      color: white;
+      border: none;
+      padding: 14px 22px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    #letter { display: none; }
+    .heart { font-size: 45px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">♡</div>
+    <h1>happy birthday!!!</h1>
+    <p>to my favorite person in the entire world.</p>
+    <p>i made a little something just for you hehe.</p>
+
+    <button onclick="openLetter()">open your letter ♡</button>
+
+    <div id="letter">
+      <p>
+        happy birthday yume ♡♡♡ i'm so grateful
+        that life brought you into mine, you're 
+        geniuenly the light of my life. You've helped me so much by just exisiting,
+        i make alot of good choices now cause i think what would yume do in this situation hehe.  
+        you're so awesome and a BADDIEE!! i miss you so SO much i always think of our hangouts,
+        i wish i could see you and give you the biggest hug, i need a yume hug so bad T^T 
+        i hope today you celebrate this day to the max and surround yourself with the people and things
+        you love the most. i hope this year brings you joy and peacefulness ♡♡ 
+        thank you for always being there for me and know that i am here for you, ALWAYS!!
+      </p>
+      <p>thank you for being you. I love you the most ♡♡♡♡</p>
+      <p>— Yours truly ash ♡</p>
+    </div>
+  </div>
+
+  <script>
+    function openLetter() {
+      document.getElementById("letter").style.display = "block";
+    }
+  </script>
+</body>
+</html>
